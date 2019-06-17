@@ -46,7 +46,7 @@ function main () {
     // support animation
     startGame();
     
-    canvas.addEventListener('mousemove',firstRacketMovement);
+    document.addEventListener('mousemove',firstRacketMovement);
 
 }
 
